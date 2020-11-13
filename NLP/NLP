@@ -17,3 +17,5 @@ git config --list
  git commit -m "mise à jour du repertoire d'analyse des donnes covid-19 le 02/10/2020"
  git add .  : pour ajouter par exemple tout le répertoire de travail mais git add est utilisé après chaque action ( si c'est un nouveau répertoire, l'ajout se fait facilement, par contre s'il y a déjà sous-répertoire suivi par git, il faudra commiter ce soius-répertoire pour que les choses fonctionne)
 git remote add origin https://github.com/Gphysika/Machine_Learning : désigne le répertoire suivant comme cible du projet
+
+git push -u origin master
